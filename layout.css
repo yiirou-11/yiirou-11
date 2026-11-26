@@ -1,0 +1,104 @@
+/* 全頁共用：只需要貼一次，已先提供。 */
+body {
+    margin: 0;
+    background-color: #e8e8e8;
+    color: #263238;
+    font-family: "Microsoft JhengHei", sans-serif;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+/* 01 貼這裡 */
+.header {
+    padding: 20px 40px;
+}
+.logo {
+    width: 360px;
+}
+/* 02 貼這裡 */
+.nav {
+    display: flex;
+    gap: 40px;
+    padding: 20px 40px;
+    background-color: #20272b;
+    border-top: 12px solid #00a6cf;
+}
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: #78d7ee;
+}
+/* 03 貼這裡 */
+.hero {
+    display: block;
+    width: 960px;
+}
+/* 04 貼這裡 */
+.section {
+    padding: 40px;
+}
+h1 {
+    margin: 0;
+    color: #007fa8;
+    font-size: 36px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+/* 05 貼這裡 */
+.row {
+    display: flex;
+    gap: 30px;
+}
+.photo {
+    width: 300px;
+}
+.copy {
+    width: 550px;
+}
+h2 {
+    margin: 0;
+    color: #007fa8;
+    font-size: 26px;
+}
+/* 06 貼這裡 */
+.section iframe {
+    display: block;
+    border: 0;
+}
+/* 07 貼這裡 */
+
+/* 08 貼這裡 */
+.fb-link {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #1877f2;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.fb-link img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.fb-link:hover {
+    color: #fff1a8;
+    background-color: #1255a8;
+}
+/* 09 貼這裡 */
+.footer {
+    padding: 25px 40px;
+    background-color: #20272b;
+    color: #ffffff;
+}
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.8;
+}
